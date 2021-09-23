@@ -6,7 +6,7 @@ import hudson.model.*;
 
 @NonCPS
 def call(Map config=[:]){
-    def dir = new File('/var/jenkins_home/workspace/AutomatingGroovy/');
+    def dir = new File(pwd());
     
     new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
     { 
