@@ -1,8 +1,8 @@
 import java.io.*;
 import groovy.io.*;
 import java.util.Calendar.*;
-import java.text.SimpleDateFormat
-import hudson.model.*
+import java.text.SimpleDateFormat;
+import hudson.model.*;
 
 @NonCPS
 def call(Map config=[:]){
